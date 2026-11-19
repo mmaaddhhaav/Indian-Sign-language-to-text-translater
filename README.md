@@ -21,11 +21,13 @@ Used for training, validation, and evaluation of the gesture recognition model.
 The project includes exploratory data analysis and model performance visualizations to provide insight into both the dataset and the training process:
 
 *Visualization	Description*
-Bar Chart	Number of images per gesture category, highlighting dataset balance.
-Scatter Plot	Model accuracy across training epochs, illustrating learning progression.
-Pie Chart	Distribution of gesture categories within the dataset.
+
+1).Bar Chart	Number of images per gesture category, highlighting dataset balance.
+2).Scatter Plot	Model accuracy across training epochs, illustrating learning progression.
+3).Pie Chart	Distribution of gesture categories within the dataset.
 
 ****Getting Started****
+
 *Prerequisites*
 
 Install the required dependencies:
@@ -39,6 +41,7 @@ Execute the visualization scripts to generate the charts described above:
 *bash*
 
 python visualize.py
+
 ****Tech Stack****
 
 Category	Tools

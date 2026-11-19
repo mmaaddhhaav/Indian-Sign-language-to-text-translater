@@ -24,16 +24,20 @@ The project includes exploratory data analysis and model performance visualizati
 Bar Chart	Number of images per gesture category, highlighting dataset balance.
 Scatter Plot	Model accuracy across training epochs, illustrating learning progression.
 Pie Chart	Distribution of gesture categories within the dataset.
-⚙️ Getting Started
-Prerequisites
+
+****Getting Started****
+*Prerequisites*
+
 Install the required dependencies:
 
 *bash*
+
 pip install matplotlib seaborn plotly opencv-python pandas numpy
 Running the Visualizations
 Execute the visualization scripts to generate the charts described above:
 
 *bash*
+
 python visualize.py
 ****Tech Stack****
 
@@ -43,21 +47,21 @@ Computer Vision	OpenCV, MediaPipe
 Visualization	Matplotlib, Seaborn, Plotly
 Data Handling	Pandas, NumPy
 Deep Learning	TensorFlow (CNN–LSTM architecture)
+
 ****Learning Outcomes****
 
-Practical experience working with image datasets and preprocessing pipelines.
-
-Implementation of gesture recognition using machine learning and deep learning techniques.
-
-Application of data visualization to derive insights into dataset quality and model performance.
-
-Hands-on exposure to real-time computer vision and accessibility-focused engineering.
+1).Practical experience working with image datasets and preprocessing pipelines.
+2).Implementation of gesture recognition using machine learning and deep learning techniques.
+3).Application of data visualization to derive insights into dataset quality and model performance.
+4).Hands-on exposure to real-time computer vision and accessibility-focused engineering.
 
 ****Author****
 
 Madhav Sharma
+
 B.Tech Computer Science & Engineering
+
 Passionate about AI, Machine Learning, and building accessibility-driven solutions.
 
-📄 License
+****License***
 This project is intended for educational and accessibility purposes. Feel free to reach out for collaboration or feedback.

@@ -1,34 +1,56 @@
-🤟 Indian Sign Language to Text Translator
-An AI-powered project that translates Indian Sign Language (ISL) gestures into text using machine learning. Built to assist specially-abled individuals by bridging communication gaps.
+Indian Sign Language to Text Translator
+An AI-powered accessibility solution that translates Indian Sign Language (ISL) gestures into readable English text in real time, bridging communication gaps for deaf and non-speaking individuals.
+
+📌 Overview
+This project implements a real-time computer vision system that recognizes Indian Sign Language gestures from live video input and converts them into readable text. Designed with accessibility as the core goal, it aims to reduce communication barriers between the deaf and non-speaking community and the general public.
+
+The system uses hand landmark detection combined with a deep learning architecture to learn both the spatial and temporal patterns of gestures across sequential video frames.
 
 📂 Dataset
-1).Stored in the dataset/ folder
-2).Contains images of different ISL gestures
-3).Used for training and evaluation of the recognition model
+Located in the dataset/ directory.
+
+Contains labeled image samples representing multiple ISL gesture categories.
+
+Used for training, validation, and evaluation of the gesture recognition model.
 
 📊 Visualizations
-1).📊 Bar Chart – Number of images per gesture category
-2).🔵 Scatter Plot – Model accuracy across training epochs
-3).🥧 Pie Chart – Distribution of gestures in the dataset
+The project includes exploratory data analysis and model performance visualizations to provide insight into both the dataset and the training process:
 
-⚙️ How to Run Visualizations
-Install dependencies:
+Visualization	Description
+Bar Chart	Number of images per gesture category, highlighting dataset balance.
+Scatter Plot	Model accuracy across training epochs, illustrating learning progression.
+Pie Chart	Distribution of gesture categories within the dataset.
+⚙️ Getting Started
+Prerequisites
+Install the required dependencies:
 
 bash
 pip install matplotlib seaborn plotly opencv-python pandas numpy
-Run visualization scripts to generate charts.
+Running the Visualizations
+Execute the visualization scripts to generate the charts described above:
 
+bash
+python visualize.py
 🛠️ Tech Stack
-1).Python
-2).OpenCV – Image processing
-3).Matplotlib / Seaborn / Plotly – Visualizations
-4).Pandas / NumPy – Data handling
-
+Category	Tools
+Language	Python
+Computer Vision	OpenCV, MediaPipe
+Visualization	Matplotlib, Seaborn, Plotly
+Data Handling	Pandas, NumPy
+Deep Learning	TensorFlow (CNN–LSTM architecture)
 🎯 Learning Outcomes
-1).Hands-on with image datasets
-2).Gesture recognition using ML
-3).Data visualization for model insights
+Practical experience working with image datasets and preprocessing pipelines.
+
+Implementation of gesture recognition using machine learning and deep learning techniques.
+
+Application of data visualization to derive insights into dataset quality and model performance.
+
+Hands-on exposure to real-time computer vision and accessibility-focused engineering.
 
 👨‍💻 Author
-Madhav Sharma  
-B.Tech Computer Science | Passionate about AI, ML, and accessibility solutions
+Madhav Sharma
+B.Tech Computer Science & Engineering
+Passionate about AI, Machine Learning, and building accessibility-driven solutions.
+
+📄 License
+This project is intended for educational and accessibility purposes. Feel free to reach out for collaboration or feedback.
